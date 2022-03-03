@@ -1,0 +1,19 @@
+{
+  "name": "default-cypress-integration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --browser=chrome"
+  },
+  "simple-git-hooks": {
+    "pre-push": "npm run test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.5.1",
+    "simple-git-hooks": "^2.7.0"
+  }
+}

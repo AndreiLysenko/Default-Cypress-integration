@@ -1,0 +1,5 @@
+# Cypress testing files and folders
+cypress/screenshots
+
+# Other
+node_modules
